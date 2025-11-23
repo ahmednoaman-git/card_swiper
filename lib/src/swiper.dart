@@ -6,7 +6,6 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 
 import '../card_swiper.dart';
-import 'transformer_page_view/transformer_page_view.dart';
 
 part 'custom_layout.dart';
 
@@ -24,8 +23,8 @@ const int kDefaultAutoplayDelayMs = 3000;
 ///  Default auto play transition duration (in millisecond)
 const int kDefaultAutoplayTransactionDuration = 300;
 
-const int kMaxValue = 2000000000;
-const int kMiddleValue = 1000000000;
+// const int kMaxValue = 2000000000;
+// const int kMiddleValue = 1000000000;
 
 enum SwiperLayout {
   DEFAULT,
